@@ -1,0 +1,137 @@
+#content
+{
+  padding-bottom: 60px;
+}
+.response
+{
+  font-size: 16px;
+  padding: 10px 0;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.success-message {
+  color: green;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+.error-message {
+  color: red;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+html[dir="rtl"] .foot-mal .form-group p{
+    direction: rtl;
+  }
+html[dir="ltr"] .join .form-control {
+    text-align: left;
+  }
+
+  .foot-mal .form-group p{
+    display: flex;
+    align-items: center;
+    width: 254px;
+}
+@media (max-width: 1024px) {
+  .foot-mal .form-group p  {
+      width: 50%;
+  }
+}
+@media (max-width: 480px) {
+  .foot-mal .form-group p {
+      width: 90%;
+  }
+}
+
+.dropdown-head .dropdown-toggle::after
+{
+  display: none;
+}
+.work-flex-photo:nth-child(4)
+{
+  width: 63%;
+}
+@media (max-width: 991px) {
+  .work-flex-photo:nth-child(4) {
+      width: 45%;
+  }
+}
+@media (max-width: 480px) {
+  .work-flex-photo:nth-child(4) {
+      width: 85%;
+      margin: auto;
+      margin-bottom: 15px;
+  }
+}
+/****************************pagination numbring style ********************************/
+.pagination-cont
+{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.pagination-cont .page-numbers
+{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  background-color: var(--white-color);
+  color: var(--black-color);
+  text-decoration: none;
+  border-radius: 50%;
+  transition: 0.5s ease;
+}
+.pagination-cont .page-numbers:hover
+{
+  background-color: var(--sec-color);
+  color: var(--white-color);
+}
+
+.page-numbers.current
+{
+  background-color: var(--sec-color);
+  color: var(--white-color);
+}
+/**********************************************************/
+.not-found-content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.not-found-content .error-icon
+{
+    font-size: 100px;
+    color: var(--sec-color);
+}
+.not-found-content .error-text
+{
+    font-size: 28px;
+    font-weight: 700;
+}
+/*******************************************contact us page***********************/
+.form-group.foot-na > p
+{
+  margin-bottom: 0;
+  height: 100%;
+}
+.photo-fo > p > i{
+  font-size: 25px;
+  color: var(--main-color)!important;
+}
+html[dir="rtl"] .cont textarea{
+  direction: rtl;
+}
+
+/*********************************************************/
+.about-us-page .page-content,.default-page .page-content
+{
+  margin-top: 40px;
+}
